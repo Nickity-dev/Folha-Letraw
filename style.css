@@ -70,8 +70,8 @@ body {
 
 .banner img {
   width: 100%;
-  height: 100%;       /* Altura fixa opcional */
-  object-fit: cover;   /* Preenche toda a largura */
+  height: 100%;      
+  object-fit: cover;   
   display: block;
 }
 
@@ -181,8 +181,8 @@ body {
 
 .livros {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* colunas flexíveis */
-  gap: 1.5rem;               /* espaço entre livros */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  gap: 1.5rem;               
   justify-items: center;   
   margin-top: 5px;
 }
@@ -203,7 +203,7 @@ body {
   align-items: center;
   border-radius: 5px;
   justify-content: space-between;
-  width: 90%;        /* largura fixa */
+  width: 90%;       
   min-height: 250px;
 }
 
@@ -232,13 +232,13 @@ font-weight: bold;
 
 
 .titulo {
-  margin-top: 6px;     /* espacinho abaixo da imagem */
+  margin-top: 6px;     
   font-size: 14px;
-  color: rgb(3, 3, 3);        /* ou outra cor */
+  color: rgb(3, 3, 3);        
   text-align: center;
   min-height: 2.5rem; 
   background-color: rgb(255, 255, 252);
-  width: 7rem; /* acompanha largura da imagem */
+  width: 7rem; 
   cursor: pointer;
   border-radius: 5px;
 }
@@ -286,7 +286,7 @@ footer {
 
   .logo img,
   .foto img {
-    width: 18vw; /* visíveis e proporcionais */
+    width: 18vw; 
   }
 
   /* Pesquisa AGORA abaixo do menu */
@@ -367,3 +367,4 @@ footer {
     padding: 3px 8px;
   }
 }
+
