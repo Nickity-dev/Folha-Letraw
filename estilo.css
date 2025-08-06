@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #d2b48c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+  background: transparent;
+  text-align: center;
+  width: 350px;
+}
+
+/* Logo */
+.logo img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+/* Título */
+h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Formulário */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-login input {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Botões */
+.btn-login {
+  background-color: #f7a92a;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #e38e00;
+}
+
+.btn-google {
+  background-color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-google img {
+  width: 18px;
+}
+
+/* Texto para trocar página */
+.troca-pagina {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.troca-pagina a {
+  color: #000;
+  font-weight: bold;
+}

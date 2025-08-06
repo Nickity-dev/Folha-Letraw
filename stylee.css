@@ -1,0 +1,142 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F4F1DE;
+  color: #34270E;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: #1C1C1C;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.foto img {
+  width: 100px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.lupa img {
+  width: 12px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.pesquisa input {
+  height: 30px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
+/* CAIXA DO LIVRO */
+
+
+/* ----- Detalhe do Livro ----- */
+/* ----- Detalhe do Livro ----- */
+/* ----- Detalhe do Livro ----- */
+.livro-detalhe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;              /* ocupa toda a tela */
+  margin: 40px auto;
+  padding: 20px 40px;       /* espaçamento interno */
+}
+
+/* LADO ESQUERDO: IMAGEM + PREÇO + BOTÃO */
+.info-lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-lateral img {
+  width: 220px;
+  height: 300px;
+
+  border-radius: 4px;
+}
+
+/* PREÇO */
+.preco {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* BOTÃO COMPRAR */
+.comprar {
+  background-color: #f7a92a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+.comprar:hover {
+  background-color: #e38e00;
+}
+
+/* LADO DIREITO: DESCRIÇÃO */
+.descricao-livro {
+  position: relative;
+  flex: 2;
+  max-width: 700px;
+}
+
+.descricao-livro h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descricao-livro p {
+  margin: 8px 0;
+  line-height: 1.4em;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.5rem;
+}
+
+
+.linha-separadora {
+  width: 2px;                
+  background-color: #000000;   
+  margin: 0 20px;             
+  align-self: stretch;         
+  border: none;                
+}
