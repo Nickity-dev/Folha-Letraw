@@ -57,20 +57,16 @@ body {
 }
 
 
-/* CAIXA DO LIVRO */
 
-
-/* ----- Detalhe do Livro ----- */
-/* ----- Detalhe do Livro ----- */
 /* ----- Detalhe do Livro ----- */
 .livro-detalhe {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 30px;
-  width: 100%;              /* ocupa toda a tela */
+  width: 100%;              
   margin: 40px auto;
-  padding: 20px 40px;       /* espaçamento interno */
+  padding: 20px 40px;       
 }
 
 /* LADO ESQUERDO: IMAGEM + PREÇO + BOTÃO */
@@ -140,3 +136,4 @@ body {
   align-self: stretch;         
   border: none;                
 }
+
